@@ -4,7 +4,7 @@ export const personalData = {
   designation: "Software Developer",
   description:
     "My name is Ugo Franklin. I am a professional and enthusiastic programmer, product engineer, and graphic designer who thrives on curiosity and creativity. I’m a fast learner with a self-driven approach, always exploring new technologies and solving problems with passion. I work across software and design, from blockchain to product systems, and I enjoy building solutions that make technology more open and impactful. My core strength is bridging engineering and design, shaping ideas into real products, while adapting to the tools each project demands. I’m open to opportunities that match my skills and fuel my drive to grow.",
-  email: "ugochinemerem55@gmail.com",
+  email: "ugofranklin22@gmail.com",
   phone: "+14376552364",
   mediumUsername: "your-medium-username",
   address: "37 Whiteface Crescent, Brampton, Ontario L6Y 5E4, Canada",
