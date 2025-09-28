@@ -1,42 +1,78 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
-];
+  {
+    id: 1,
+    name: "Paj Cash - Crypto Off-Ramping",
+    description:
+      "I led the development of Paj Cash, a simplified crypto off-ramping platform for Solana users. As founding developer, I built Version I from scratch and onboarded the first 100 users. I migrated from Next.js to Vite for better performance, enhanced UI/UX with the design team, and created a Telegram bot for merchant notifications. Features include AI assistants, voice-to-text, automated PDF generation, and multi-platform authentication.",
 
+    tools: [
+      "Express.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "OpenAI API",
+      "AWS SES",
+      "AWS Transcribe",
+      "Vite",
+      "Next.js",
+      "Solana",
+      "Telegram Bot API",
+      "Figma",
+      "Adobe Illustrator",
+      "Google Sheets API",
+    ],
+    role: "Lead Full Stack Developer & Founder Member",
+    code: "https://github.com/paj-cash",
+    demo: "https://paj.cash/",
+    github: "",
+  },
+  {
+    id: 2,
+    name: "Eventmint",
+    description:
+      "I and my Team developed Eventmint, a platform empowering sponsor reach and engagement at every event. As a full-stack developer, I handled both frontend and backend development for this award-winning project that secured 4th place in the Solana Radar Hackathon local track. The platform revolutionizes how sponsors connect with event attendees, providing enhanced engagement tools and analytics for maximum ROI on sponsorship investments.",
+    tools: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Solana",
+      "TypeScript",
+      "TailwindCSS",
+    ],
+    role: "Full Stack Developer",
+    code: "https://github.com/Procyon-Labs/Eventmint.V2.Client",
+    demo: "https://procyon-labs.vercel.app",
+    github: "",
+  },
+  {
+    id: 3,
+    name: "CloutChain - TikTok Crypto Tipping Platform",
+
+    description:
+      "I single-handedly designed and developed CloutChain, an innovative platform enabling TikTok creators to receive cryptocurrency tips. I handled the complete development lifecycle - from UI/UX design to full-stack development, AWS deployment, and production hosting. The platform features secure authentication via AWS Cognito and seamless crypto payments, bridging social media engagement with Web3 monetization for content creators.",
+    tools: [
+      "React",
+      "Bootstrap",
+      "Illustrator",
+      "Express",
+      "TypeScript",
+      "MongoDB",
+      "Aws amplify",
+      "Aws Cognito",
+      "Solana",
+      "Cronjob",
+      "JWT",
+      "Figma",
+    ],
+    code: "https://github.com/MeremArt/Cloutchain.git",
+    role: "Product Engineer & Full Stack Developer",
+    demo: "https://youtu.be/qqM1jglS5xs?si=bABEjGHws6pdZqY4",
+    github: "",
+  },
+  //
+];
 
 // Do not remove any property.
 // Leave it blank instead as shown below

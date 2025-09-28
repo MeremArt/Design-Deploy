@@ -1,6 +1,6 @@
 {
   "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
+  "description": "Portfolio of Ugo Franklin",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,14 +22,16 @@
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
     "react-toastify": "^10.0.4",
+    "rss-parser": "^3.13.0",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
+    "@tailwindcss/postcss": "^4.1.13",
+    "autoprefixer": "^10.4.21",
     "eslint": "latest",
     "eslint-config-next": "15.1.1",
-    "postcss": "latest",
+    "postcss": "^8.5.6",
     "sass": "^1.69.5",
-    "tailwindcss": "latest"
+    "tailwindcss": "^3.0.0"
   }
 }

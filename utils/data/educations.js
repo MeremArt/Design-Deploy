@@ -3,18 +3,12 @@ export const educations = [
     id: 1,
     title: "Bachelor Degree",
     duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    institution: "Nnamdi Azikiwe University, Awka",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Masters in Information Technology and Security",
+    duration: "2025 - 2028",
+    institution: "Ontario tech University, Canada",
   },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+];
