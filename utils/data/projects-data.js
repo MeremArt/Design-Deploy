@@ -71,6 +71,25 @@ export const projectsData = [
     demo: "https://youtu.be/qqM1jglS5xs?si=bABEjGHws6pdZqY4",
     github: "",
   },
+  {
+    id: 4,
+    name: "BioKey - Decentralized Biometric Authentication",
+    description:
+      "I developed BioKey, a secure decentralized biometric authentication system built on Solana blockchain. The project features privacy-preserving fingerprint verification without storing raw biometric data on-chain, ensuring both security and user privacy. I built both the Rust-based smart contract using the Anchor framework and the React frontend with TypeScript for seamless user interaction. This innovative solution bridges biometric security with blockchain technology, providing a next-generation identity verification system.",
+    tools: [
+      "Rust",
+      "Anchor Framework",
+      "Solana",
+      "TypeScript",
+      "React",
+      "Web3.js",
+      "TailwindCSS",
+    ],
+    role: "Full Stack Blockchain Developer",
+    code: "https://github.com/MeremArt/BioKey",
+    demo: "https://github.com/MeremArt/biokey-identity",
+    github: "",
+  },
   //
 ];
 
