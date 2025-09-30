@@ -145,7 +145,7 @@ export const personalData = {
   designation: "Full-Stack Software Developer",
   description: "My name is Ugo Franklin....",
   email: "ugochinemerem55@gmail.com",
-  phone: "+14376552364",
+  phone: "",
   address: "ontario, Canada",
   github: "https://github.com/MeremArt",
 
