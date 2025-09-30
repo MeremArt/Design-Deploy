@@ -9,10 +9,10 @@ export const personalData = {
   mediumUsername: "your-medium-username",
   address: "37 Whiteface Crescent, Brampton, Ontario L6Y 5E4, Canada",
   github: "https://github.com/meremart",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
+  facebook: "",
   linkedIn: "https://www.linkedin.com/in/chinemerem-ugo-23910916b/",
   twitter: "https://x.com/merem___",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
+  stackOverflow: "",
   leetcode: "https://leetcode.com/",
   devUsername: "",
   resume:
