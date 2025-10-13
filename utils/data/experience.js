@@ -14,7 +14,7 @@ export const experiences = [
   {
     id: 3,
     title: "Full Stack Developer",
-    company: "Rbih Finance.",
+    company: "Rbih Finance",
     duration: "(Jun 2024 - Sep 2025)",
   },
   {
