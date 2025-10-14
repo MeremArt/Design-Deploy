@@ -90,6 +90,26 @@ export const projectsData = [
     demo: "https://github.com/MeremArt/biokey-identity",
     github: "",
   },
+
+  {
+    id: 5,
+    name: "Serverless Image & CSV Processing Pipeline",
+    description:
+      "I built a fully serverless data processing pipeline on AWS that automatically resizes images, parses CSV files, and sends notifications when processing is complete. The system uses S3 to store both uploads and processed outputs, AWS Lambda to handle image resizing (via Pillow) and CSV parsing, and SNS to send completion alerts. This upgrade transformed a basic CSV parser into a scalable, automated pipeline that turns uploads into insights and assets within seconds.",
+    tools: [
+      "AWS Lambda",
+      "AWS S3",
+      "AWS SNS",
+      "Pillow",
+      "Python",
+      "CloudWatch",
+      "Figma",
+    ],
+    role: "Cloud Engineer & Developer",
+    code: "https://github.com/MeremArt/pipeline-automator",
+    demo: "https://www.youtube.com/watch?v=m3cHHQzVLgs&feature=youtu.be",
+    github: "",
+  },
   //
 ];
 
