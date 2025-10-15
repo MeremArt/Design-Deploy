@@ -46,31 +46,31 @@ export const projectsData = [
     demo: "https://procyon-labs.vercel.app",
     github: "",
   },
-  {
-    id: 3,
-    name: "CloutChain - TikTok Crypto Tipping Platform",
+  // {
+  //   id: 3,
+  //   name: "CloutChain - TikTok Crypto Tipping Platform",
 
-    description:
-      "I single-handedly designed and developed CloutChain, an innovative platform enabling TikTok creators to receive cryptocurrency tips. I handled the complete development lifecycle - from UI/UX design to full-stack development, AWS deployment, and production hosting. The platform features secure authentication via AWS Cognito and seamless crypto payments, bridging social media engagement with Web3 monetization for content creators.",
-    tools: [
-      "React",
-      "Bootstrap",
-      "Illustrator",
-      "Express",
-      "TypeScript",
-      "MongoDB",
-      "Aws amplify",
-      "Aws Cognito",
-      "Solana",
-      "Cronjob",
-      "JWT",
-      "Figma",
-    ],
-    code: "https://github.com/MeremArt/Cloutchain.git",
-    role: "Product Engineer & Full Stack Developer",
-    demo: "https://youtu.be/qqM1jglS5xs?si=bABEjGHws6pdZqY4",
-    github: "",
-  },
+  //   description:
+  //     "I single-handedly designed and developed CloutChain, an innovative platform enabling TikTok creators to receive cryptocurrency tips. I handled the complete development lifecycle - from UI/UX design to full-stack development, AWS deployment, and production hosting. The platform features secure authentication via AWS Cognito and seamless crypto payments, bridging social media engagement with Web3 monetization for content creators.",
+  //   tools: [
+  //     "React",
+  //     "Bootstrap",
+  //     "Illustrator",
+  //     "Express",
+  //     "TypeScript",
+  //     "MongoDB",
+  //     "Aws amplify",
+  //     "Aws Cognito",
+  //     "Solana",
+  //     "Cronjob",
+  //     "JWT",
+  //     "Figma",
+  //   ],
+  //   code: "https://github.com/MeremArt/Cloutchain.git",
+  //   role: "Product Engineer & Full Stack Developer",
+  //   demo: "https://youtu.be/qqM1jglS5xs?si=bABEjGHws6pdZqY4",
+  //   github: "",
+  // },
   {
     id: 4,
     name: "BioKey - Decentralized Biometric Authentication",
@@ -92,7 +92,7 @@ export const projectsData = [
   },
 
   {
-    id: 5,
+    id: 3,
     name: "Serverless Image & CSV Processing Pipeline",
     description:
       "I built a fully serverless data processing pipeline on AWS that automatically resizes images, parses CSV files, and sends notifications when processing is complete. The system uses S3 to store both uploads and processed outputs, AWS Lambda to handle image resizing (via Pillow) and CSV parsing, and SNS to send completion alerts. This upgrade transformed a basic CSV parser into a scalable, automated pipeline that turns uploads into insights and assets within seconds.",
