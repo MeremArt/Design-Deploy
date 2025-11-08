@@ -93,21 +93,22 @@ export const projectsData = [
 
   {
     id: 3,
-    name: "Serverless Image & CSV Processing Pipeline",
+    name: "Serverless Image Resizer with Self-Service Access",
     description:
-      "I built a fully serverless data processing pipeline on AWS that automatically resizes images, parses CSV files, and sends notifications when processing is complete. The system uses S3 to store both uploads and processed outputs, AWS Lambda to handle image resizing (via Pillow) and CSV parsing, and SNS to send completion alerts. This upgrade transformed a basic CSV parser into a scalable, automated pipeline that turns uploads into insights and assets within seconds.",
+      "I architected and built a production-ready serverless SaaS platform that automatically resizes images into 3 optimized sizes and delivers them via email. The system features self-service access control using SNS email verification, event-driven S3 triggers for automatic processing, and costs less than $5/month for 1000+ users. Users request access, verify their email, upload images, and receive download links instantly—all without any servers to manage. This project demonstrates advanced AWS architecture, serverless computing, and real-world scalability.",
     tools: [
       "AWS Lambda",
       "AWS S3",
       "AWS SNS",
-      "Pillow",
+      "API Gateway",
       "Python",
+      "Pillow (PIL)",
       "CloudWatch",
-      "Figma",
+      "HTML/CSS/JavaScript",
     ],
-    role: "Cloud Engineer & Developer",
-    code: "https://github.com/MeremArt/pipeline-automator",
-    demo: "https://www.youtube.com/watch?v=m3cHHQzVLgs&feature=youtu.be",
+    role: "Cloud Solutions Architect & Full Stack Developer",
+    code: "https://github.com/MeremArt/Serverless-Image-Resizer-with-Self-Service-Access-Control",
+    demo: "https://image-resizer-website.s3.ca-central-1.amazonaws.com/index.html",
     github: "",
   },
   //
